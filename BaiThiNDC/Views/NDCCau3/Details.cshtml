@@ -1,0 +1,30 @@
+@model BaiThiNDC.Models.NDCCau3
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Thông tin sinh viên</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StudentName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StudentName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sdt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sdt)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.StudentID">Sửa</a> |
+    <a asp-action="Index">Trở lại</a>
+</div>

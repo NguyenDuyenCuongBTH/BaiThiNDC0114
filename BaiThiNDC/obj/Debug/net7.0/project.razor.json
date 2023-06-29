@@ -18650,8 +18650,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\NDCCau3\\Delete.cshtml",
+      "TargetPath": "Views\\NDCCau3\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\NDCCau3\\Details.cshtml",
+      "TargetPath": "Views\\NDCCau3\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18667,6 +18677,21 @@
     {
       "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\NDCCau3\\Create.cshtml",
+      "TargetPath": "Views\\NDCCau3\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\NDCCau3\\Index.cshtml",
+      "TargetPath": "Views\\NDCCau3\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\OneDrive\\Desktop\\BaiThiNDC\\BaiThiNDC\\Views\\NDCCau3\\Edit.cshtml",
+      "TargetPath": "Views\\NDCCau3\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

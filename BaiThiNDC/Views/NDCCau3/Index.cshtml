@@ -1,0 +1,41 @@
+@model IEnumerable<BaiThiNDC.Models.NDCCau3>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Thông tin sinh viên</h1>
+
+<p>
+    <a asp-action="Create">Thêm Sinh viên</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sdt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sdt)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.StudentID">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.StudentID">Xem thông tin</a> |
+                <a asp-action="Delete" asp-route-id="@item.StudentID">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
